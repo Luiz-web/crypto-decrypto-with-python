@@ -34,8 +34,7 @@ while should_continue:
                 cypher_text += index
             else:
                 cypher_text += alphabet[index]
-        
-    
+            
         print(f"The {direction}d text is {cypher_text}")
 
     caesar(text, shift)
@@ -46,9 +45,3 @@ while should_continue:
         continue
     elif again == 'n' or again == 'no':
         should_continue = False
-
-
-
-
-
-    
